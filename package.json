@@ -1,11 +1,15 @@
 {
   "name": "glipbot",
+  "scripts": {
+    "start": "node bot.js"
+  },
   "dependencies": {
     "async": "^2.0.1",
     "commander": "^2.9.0",
     "date_utilities": "^0.0.1",
     "fast_bindall": "^0.0.1",
     "google-images": "^1.0.0",
+    "jsonfile": "^2.4.0",
     "lodash": "^4.16.4",
     "moment": "^2.14.1",
     "moment-timezone": "^0.5.5",
